@@ -1,0 +1,441 @@
+/*  */
+
+body, html {
+	width: 100%;
+	background-color:#bfc4c759;
+	color:#00035f;
+	margin: auto;
+	font-family: 'Miriam Libre', sans-serif;
+	taxt-align:center;
+
+}
+
+.h1_header, .h2_header{
+	position:absolute;
+	 z-index: 1;
+	padding-top:50px;
+	padding-right:30px;
+	color:white;
+	text-shadow:2px 3px 10px  black;
+	word-spacing:8px;
+	letter-spacing:4px;
+}
+
+.h2_header{
+	font-size:small;
+	padding-top:100px;
+	font-family:; 
+}
+
+.bg {
+   
+	background-image: url("hair_cut3.jpg");
+	height: 250px;
+	width: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 100%);
+	 clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 100%); */
+}
+
+.trieng{
+	margin-top:-35px;
+	height: 70px;
+	width: 100%; 
+	background-color:black;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 90%, 0 100%);
+    clip-path: polygon(0 50%, 100% 0,100% 50%, 0 100%);
+	z-index:1;
+}
+.tor_messege{
+	position:fixed;
+	z-index:4;
+	text-align:center;
+	top:100px;
+	left: 5px
+}
+.tor_messeges{
+	
+	margin-top:-30px;
+	margin-right:350px;
+	margin-left:100px;
+	width:100%;
+	padding:10px;
+	display:none;
+	background-color:#2237b5d4;
+	border-width:5px;
+	color:#ffffff;
+	border-style:ridge;
+	border-color:#2237b58f;
+	
+}
+
+.button_messege{
+	displ ay:block;
+} 
+
+.table_admin_DB{
+	margin-right:10px;
+	margin-left:10px;
+	padding:10px;
+	displ ay:none;
+	background-color:#2237b5d4;
+	border-width:5px;
+	color:#ffffff;
+	border-style:ridge;
+	border-color:#2237b58f;
+
+}
+.table_for_admin{
+
+	m argin-right:30%;
+	wi dth: 50%;
+	color:black;
+	background:linear-gradient(to  right, #0000008c, #DCDCDC);
+	text-align:center;
+	shape-outside: polygon(0% 0%, 100% 2%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+    shape-margin: 0px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+	clip- path: polygon(0% 0%, 100% 1%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+	paddi ng-bottom:40px;
+	padding-top:30px;
+	
+}
+
+.welcome{
+	background:radial-gradient(circle at 30px 30px, #000000, #00000030);
+	text-align:center;
+	shape-outside: polygon(5% 20%, 95% 0%,95% 120%, 5% 95%);
+    shape-margin: 220px;
+	-webkit-clip-path: polygon(5% 20%, 95% 0%,95% 120%, 5% 95%);
+    clip-path: polygon(5% 15%, 95% 0%,95% 100%, 5% 90%);
+    padding-bottom:31px;
+    padding-top:30px;
+    margin-top:31px;
+	
+}
+
+.welcome_admin{
+	background:radial-gradient(circle at 30px 30px, #565656, #00000030);
+	text-align:center;
+	shape-outside: polygon(5% 20%, 95% 0%,95% 120%, 5% 95%);
+    shape-margin: 220px;
+	-webkit-clip-path: polygon(5% 20%, 95% 0%,95% 120%, 5% 95%);
+    clip-path: polygon(2% 5%, 98% 0%,98% 100%, 2% 95%);
+    padding-bottom:31px;
+    padding-top:30px;
+    margin-top:31px;
+	
+
+}
+.out_welcome{
+
+	position:relative;
+	z-index:1;
+	height: 70px;
+	width: 100%; 
+	background: #000000;
+	clip-path: polygon(0 20%, 100% 30%,100% 70%, 0 60%);
+	
+}
+
+.welcome > h1{
+	color:#DCDCDC;
+}
+.log_out{
+
+	color:#7a71ff;
+}
+
+.log_out:hover{
+
+	color:#DCDCDC;
+}
+
+.window {
+	margin:auto;
+	width: 70%;
+	height: 100%;
+	color:black;
+	background: #DCDCDC;
+	shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    shape-margin: 20px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+	clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
+	clip -path: polygon(1% 1%, 99% 9%, 99% 90%, 0% 100%);
+	padding-bottom:31px;
+	background:linear-gradient(to  right,  #0000008c,#9e9c9ce8, #DCDCDC);/*( #000000, #00000030);
+	*/
+	
+}
+.window_text{
+	margin:auto;
+	width: 70%;
+	height: 255px;
+	color:black;
+	background-color:black;
+	background: #DCDCDC;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
+	background:linear-gradient(to  left,  #0000008c,#9e9c9ce8, #DCDCDC);/*( #000000, #00000030);
+	*/
+
+}
+.inside{
+	padding-top:30px;
+	text-align:center;
+	
+}
+input, .select_day{
+	width:35%;
+	font-family: 'Miriam Libre', sans-serif;
+	border-width: 1px;
+    border-style: outset;
+    border-color:#dcdcdc;
+    margin-top:px;
+    margin-bottom:10px;
+    height:30px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.select_day{
+	max-width:160px;
+}
+
+input:hover{
+	
+	border-style: inset;
+
+}
+.button{
+
+	border-radius:30px;
+	width:70px;
+	height:35px;
+	color:#DCDCDC;
+	box-sh adow: inset -1px -2px 1px 1px #5cabff;
+	transition-duration: 0.8s;
+	background: radial-gradient(circle at 20px 20px, #5cabff, #000);
+	trans form: rotateX(2deg) rotateY(5deg) rotateZ(5deg);
+	border-width: 2px;
+	border-style: inset;
+	border-color:#5cabff;
+	transition-duration: 0.5s;
+	margin : auto;
+	margin-bottom:10px;
+
+}
+
+.button:hover{
+	border-width: 2px;
+	transform: rotateX(1deg) rotateY(1deg) rotateZ(-5deg);
+    border-style: outset;
+	background: radial-gradient(circle at 30px 30px, #006bdc, #000);
+	padding-bottom:10px;
+	position:static;
+    
+}
+
+.cancel{
+	background: radial-gradient(circle at 20px 20px, #ff4040, #000);
+	border-color:#e60000;
+}
+.cancel:hover{
+	background: radial-gradient(circle at 30px 30px, #e60000, #000);
+}
+.tableAdmin, .tableCustomer{
+ 
+	
+	margin-right:30%;
+	width: 50%;
+	color:black;
+	background:linear-gradient(to  right, #0000008c, #DCDCDC);
+	text-align:center;
+	shape-outside: polygon(0% 0%, 100% 2%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+    shape-margin: 0px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+	clip-path: polygon(0% 0%, 100% 1%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+	padding-bottom:40px;
+	padding-top:30px;
+}
+
+.table h2{
+
+	text-align:center;
+	font-size:35px;
+}
+tr{
+
+	height:60px;
+}
+
+.inside span, .inside button{
+	display: block;
+	text-align:center;
+	
+
+}
+
+.hidden_div{
+
+	display:none;
+}
+
+.button_detail{
+
+
+}
+
+.hidden_detail{
+	display:none;
+	width:200px;
+	height:100px;
+	border-style:double;
+	color:#DCDCDC;
+	background-color:#252cb7d9;
+	right:39%;
+	z-index:3;
+
+	
+}
+
+.footer{
+	background-color:#DCDCDC;
+	height: 200px;
+	
+	position: relative;
+    margin-top: 20px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+	background:linear-gradient(to  bottom, #0000008c,#9e9c9ce8, #DCDCDC);/*( #000000, #00000030);
+	*/
+}            /*  */
+.registration{
+	
+	display:none;
+}
+
+.error{
+	display:block;
+	color:#ff0b00;
+} 
+.send{
+	color:#0400ff;
+}
+
+@media screen and (max-width:780px) {
+	
+	.tor_messege{
+	
+		top:80px;
+		left:-12px
+	}
+	.tor_messeges{
+		
+		margin-top:-30px;
+		margin-right:300px;
+		margin-left:50px;
+		padding:50px;
+		
+
+	}
+
+	.window{
+		height: 320px;
+		text-align:center;
+	}
+	.window input, .window button{
+		
+		display: block;
+		text-align:center;
+		margin: auto;
+		margin-top:5px;
+	}
+	.window input{
+		width:50%;
+	}
+	
+	.tableAdmin, .tableCustomer{
+		margin: auto;
+		width: 70%;
+	}
+}
+@media screen and (max-width:670px) {
+	
+
+	.tor_messeges{
+		
+		margin-right:100px;
+		margin-left:50px;
+		padding:20px;
+		
+
+	}
+
+}
+@media screen and (max-width:420px) {
+	.tor_messege{
+	
+		top:156px;
+		left:-8px
+	}
+	.tor_messeges{
+		
+		margin-right:90px;
+		margin-left:20px;
+		padding:15px;
+		
+
+	}
+
+	.tableAdmin, .tableCustomer{
+		width: 90%;
+	
+	}
+
+	.table_admin table{
+	
+		mar gin-right:30%;
+		width: 100%;
+		color:black;
+		background:linear-gradient(to  right, #0000008c, #DCDCDC);
+		text-align:center;
+		shape-outside: polygon(0% 0%, 100% 2%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+		shape-margin: 0px;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 1000%, 0 100%);
+		clip-path: polygon(0% 0%, 100% 1%, 100% 99%, 100% 2%, 100% 99%, 0% 100%);
+		padding-bottom:40px;
+		padding-top:30px;
+	
+
+	}
+}
+
+
+.shaped{
+    background-color:#224cff80;
+	height: 70%;
+	width: 100%;
+	z-index:0;
+	position: fixed;
+    margin-top: -100px;
+    shape-outside: polygon(100% 0, 0 0, 100% 100%);
+   
+    clip-path: polygon(2% 5%, 20% 0, 0% 100%);
+}
+
+.progress{
+	position:fixed;
+	background-color:#00138600;
+	top:30%;
+	border-style:dotted;
+	border-width:20px;
+	border-radius:50%;
+	left:43%;
+	height: 100px;
+	width: 100px;
+	z-index:23;
+}
